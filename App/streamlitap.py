@@ -239,7 +239,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Load the pre-trained model
-model = load_model(r"C:\Users\prasad k\Documents\Alzeimerdetection\alzheimers-detection\CNN\cnn_best_weights.hdf5")
+model = load_model("cnn_best_weights.hdf5")
 
 # Define the image size for model input
 IMG_SIZE = (128, 128)
