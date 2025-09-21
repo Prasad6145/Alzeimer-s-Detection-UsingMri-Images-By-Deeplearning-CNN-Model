@@ -100,20 +100,20 @@ The project incorporates the following AI models for Alzheimer's disease classif
 The project utilizes various CNN models for classification:
 
 - Custom CNN architecture
-- CNN (Convolutional Neural Network) [Implementation Notebook](https://github.com/Nirmit1910/alzheimers-detection/blob/main/CNN/alzheimer-detection-cnn%20(1).ipynb)
+- CNN (Convolutional Neural Network) 
 
 ### 2. Transfer Learning Models
 
 The project employs transfer learning using pre-trained models:
 
 
-- VGG16: [Implementation Notebook](https://github.com/Nirmit1910/alzheimers-detection/blob/main/Transfer%20Learning/alzeihmer-vgg.ipynb)
-- VGG19: [Implementation Notebook](https://github.com/Nirmit1910/alzheimers-detection/blob/main/Transfer%20Learning/alzeihmer-vgg.ipynb)
-- ResNet: [Implementation Notebook](https://github.com/Nirmit1910/alzheimers-detection/blob/main/Transfer%20Learning/alzheimer-resnet50.ipynb)
-- MobileNetV2: [Implementation Notebook](https://github.com/Nirmit1910/alzheimers-detection/blob/main/Transfer%20Learning/alzheimer-mobilenetv2.ipynb)
-- InceptionV3: [Implementation Notebook](https://github.com/Nirmit1910/alzheimers-detection/blob/main/Transfer%20Learning/alzheimers-inceptionv3.ipynb)
-- DenseNet169: [Implementation Notebook](https://github.com/Nirmit1910/alzheimers-detection/blob/main/Transfer%20Learning/alzheimer-densenet169.ipynb)
-- EfficientNetb0: [Implementation Notebook](https://github.com/Nirmit1910/alzheimers-detection/blob/main/Transfer%20Learning/alzheimer-efficientnetb0.ipynb)
+- VGG16
+- VGG19
+- ResNet
+- MobileNetV2
+- InceptionV3
+- DenseNet169
+- EfficientNetb0
 
 
 
@@ -123,18 +123,16 @@ The project includes traditional machine learning algorithms for classification:
 
 - Logistic Regression
 - SVM (Support Vector Machine)
-- Random Forest
--  [Implementation Notebook](https://github.com/Nirmit1910/alzheimers-detection/blob/main/Machine%20Learning/alzheimer-pca-ml.ipynb)
+
 
 
 ### 4. Hybrid Deep Learning Models
 
 The project implements hybrid deep learning models combining deep learning with other algorithms:
 
-- Alzheimer-CNN-with-XGBoost-GNB-SVM: A hybrid model combining CNN with XGBoost, Gaussian Naive Bayes (GNB), and SVM algorithms. [Implementation Notebook](https://github.com/Nirmit1910/alzheimers-detection/blob/main/Hybrid%20Learning/alzeihmer-cnn-with-xgboost-gnb-svm.ipynb)
+- Alzheimer-CNN-with-XGBoost-GNB-SVM: A hybrid model combining CNN with XGBoost, Gaussian Naive Bayes (GNB), and SVM algorithms.
 
-- Alzheimer-VGG-with-SVM-GNB-XGBoost: A hybrid model combining VGG16 with SVM, GNB, and XGBoost algorithms. [Implementation Notebook](https://github.com/Nirmit1910/alzheimers-detection/blob/main/Hybrid%20Learning/alzeihmer-vgg-with-svm-gnb-xgboost.ipynb)
-
+- Alzheimer-VGG-with-SVM-GNB-XGBoost: A hybrid model combining VGG16 with SVM, GNB, and XGBoost algorithms. 
 
 ## Model Performances
 
@@ -170,8 +168,6 @@ The following table shows the evaluation metrics for different models used in th
 
 This plot shows that we get our highest accuracies from our **Conventional CNN model** and **PCA-SVM model** . While other models have also acquired quite decent accuracies.
 
-For more of these plots over different performance metrics such as loss, precison, recall, auc etc. do check out [comparison plots](https://github.com/Nirmit1910/alzheimers-detection/tree/main/Comparison/Plots) folder and the [comparison notebook](https://github.com/Nirmit1910/alzheimers-detection/blob/main/Comparison/all-model-comparison.ipynb).
-
 
 
 ## Future Scope and Limitations
@@ -181,19 +177,6 @@ For more of these plots over different performance metrics such as loss, preciso
 - Integration with clinical data: Combining MRI data with clinical information, such as cognitive test scores, medical history, genetic data, or lifestyle factors, can lead to a more comprehensive and accurate prediction model. 
 
 
-## References
-
-- https://www.biorxiv.org/content/10.1101/070441v4.full.pdf
-- https://www.proquest.com/openview/13f1237a0a57216debf783897664a462/1?pq-origsite=gscholar&cbl=4424409
-- https://www.mdpi.com/2075-4418/12/8/1833
-- https://www.sciencedirect.com/science/article/pii/S0010482521003310
-- https://philpapers.org/archive/ALMCOA.pdf
-- https://github.com/LinLLiu/AD
 
 
-## Authors/Contributors
-
-- [B. Prithiraj](https://github.com/bprithiraj)
-- [Nirmit Gupta](https://github.com/Nirmit1910)
-- [Sarit Samyak Rath](https://github.com/SARIT42)
 
